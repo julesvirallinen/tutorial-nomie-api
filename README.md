@@ -5,12 +5,13 @@
 The Nomie API is a simple way to send events, data, notes and more to your device running Nomie.
 
 ## Virtual Tap of a Tracker Button
-You can virtually tap your button by sending the ``track`` action to the Nomie API.
+You can virtually tap your button by sending the ``track`` action to the Nomie API. Replace spaces in the tracker name with '%20'.
 
 ### Single Tap Trackers
 
 ```
 https://api.nomie.io/v1/{apikey}/action=track/label=Peed
+https://api.nomie.io/v1/{apikey}/action=track/label=Ate%20Food
 ```
 
 ### Value based Trackers
@@ -24,6 +25,14 @@ https://api.nomie.io/v1/{apikey}/action=track/label=Temperature/value=123
 ### Track the Temperature with IFTTT
 
 Have IFTTT post the temp each day to a "Temp" tracker that's Numeric and uses Averages for the calculation. You'll now be able to see how the temp, or whatever you track weather wise, affects you.
+
+### Create a Single Tap widget with IFTTT (Android, iOS)
+
+Create a new Applet with the trigger as "DO Button" and action service as "Maker". Use any API-URL as the URL. Now you can add a IFTTT widget to the home screen (or notification center on iOS), and select the new Applet! 
+
+### Send ticks from any Pebble smartwatch
+
+Use the [HTTP app for pebble](https://apps.getpebble.com/en_US/application/567af43af66b129c7200002b?query=http&section=watchapps), and add API URLs, named after their tracker. Add the app to pebble favourites, and quickly make ticks, straight from the watch! 
 
 ### Create a Widget with Workflow (iOS)
 Coming soon
