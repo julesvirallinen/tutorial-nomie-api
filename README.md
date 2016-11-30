@@ -29,6 +29,10 @@ Have IFTTT post the temp each day to a "Temp" tracker that's Numeric and uses Av
 
 Create a new Applet with the trigger as "DO Button" and action service as "Maker". Use any API-URL as the URL. Now you can add a IFTTT widget to the home screen (or notification center on iOS), and select the new Applet! 
 
+### Send ticks from any Pebble smartwatch
+
+Use the [HTTP app for pebble](https://apps.getpebble.com/en_US/application/567af43af66b129c7200002b?query=http&section=watchapps), and add API URLs, named after their tracker. Add the app to pebble favourites, and quickly make ticks, straight from the watch! 
+
 ### Create a Widget with Workflow (iOS)
 Coming soon
 
