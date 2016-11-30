@@ -5,12 +5,13 @@
 The Nomie API is a simple way to send events, data, notes and more to your device running Nomie.
 
 ## Virtual Tap of a Tracker Button
-You can virtually tap your button by sending the ``track`` action to the Nomie API.
+You can virtually tap your button by sending the ``track`` action to the Nomie API. Replace spaces in the tracker name with '%20'.
 
 ### Single Tap Trackers
 
 ```
 https://api.nomie.io/v1/{apikey}/action=track/label=Peed
+https://api.nomie.io/v1/{apikey}/action=track/label=Ate%20Food
 ```
 
 ### Value based Trackers
