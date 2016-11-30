@@ -25,6 +25,10 @@ https://api.nomie.io/v1/{apikey}/action=track/label=Temperature/value=123
 
 Have IFTTT post the temp each day to a "Temp" tracker that's Numeric and uses Averages for the calculation. You'll now be able to see how the temp, or whatever you track weather wise, affects you.
 
+### Create a Single Tap widget with IFTTT (Android, iOS)
+
+Create a new Applet with the trigger as "DO Button" and action service as "Maker". Use any API-URL as the URL. Now you can add a IFTTT widget to the home screen (or notification center on iOS), and select the new Applet! 
+
 ### Create a Widget with Workflow (iOS)
 Coming soon
 
