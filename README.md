@@ -20,6 +20,12 @@ https://api.nomie.io/v2/push/{apikey}/action=track/label=Ate%20Food
 https://api.nomie.io/v2/push/{apikey}/action=track/label=Temperature/value=123
 ```
 
+## Create a note
+
+```
+https://api.nomie.io/v2/push/{apikey}/action=create-note/note=its%20this%20easy!
+```
+
 ## Example Ideas
 
 ### Track the Temperature with IFTTT
