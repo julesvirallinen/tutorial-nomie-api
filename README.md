@@ -10,14 +10,20 @@ You can virtually tap your button by sending the ``track`` action to the Nomie A
 ### Single Tap Trackers
 
 ```
-https://api.nomie.io/v1/{apikey}/action=track/label=Peed
-https://api.nomie.io/v1/{apikey}/action=track/label=Ate%20Food
+https://api.nomie.io/v2/push/{apikey}/action=track/label=Peed
+https://api.nomie.io/v2/push/{apikey}/action=track/label=Ate%20Food
 ```
 
 ### Value based Trackers
 
 ```
-https://api.nomie.io/v1/{apikey}/action=track/label=Temperature/value=123
+https://api.nomie.io/v2/push/{apikey}/action=track/label=Temperature/value=123
+```
+
+## Create a note
+
+```
+https://api.nomie.io/v2/push/{apikey}/action=create-note/note=its%20this%20easy!
 ```
 
 ## Example Ideas
